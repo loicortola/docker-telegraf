@@ -1,6 +1,8 @@
 # docker-telegraf
 A simple and easy-to-use Telegraf docker container.
 
+Current version: ```0.1.0```
+
 ## Default configuration template
 The default configuration template (telegraf.conf.template) has been set with the following settings:  
 ```
@@ -43,4 +45,3 @@ Examples:
 docker run -t -e "HOST=influx.loicortola.com" -e "USER=metrics" -e "PASSWORD=1234password" loicortola/telegraf  
 docker run -t -e "NODE_NAME=local" -e "DB=localmetrics" -e "INTERVAL=10s" -e "PORT=8111" loicortola/telegraf
 ```
->>>>>>> Added codebase

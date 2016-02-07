@@ -15,7 +15,7 @@ else
 	export PASSLINE="# password = \"root\""
 fi
 
-sed -e "s/\${NODE_NAME}/$NODE_NAME/" \ 
+sed -e "s/\${NODE_NAME}/$NODE_NAME/" \
  -e "s/\${INTERVAL}/$INTERVAL/" \
  -e "s!\${HOST}!$HOST!" \
  -e "s/\${PORT}/$PORT/" \
