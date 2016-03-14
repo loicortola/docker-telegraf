@@ -2,7 +2,7 @@ FROM debian:jessie
 
 MAINTAINER Loic Ortola <contact@loicortola.com>
 
-ENV VERSION=0.10.2-1
+ENV VERSION=0.10.4.1-1
 
 RUN apt-get update && apt-get install -y curl
 RUN curl -s -o /tmp/telegraf_latest_amd64.tar.gz http://get.influxdb.org/telegraf/telegraf-${VERSION}_linux_amd64.tar.gz

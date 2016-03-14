@@ -1,7 +1,7 @@
 # docker-telegraf
 A simple and easy-to-use Telegraf docker container.
 
-Current version: ```0.1.0```
+Current version: ```0.2.0```
 
 ## Default configuration template
 The default configuration template (telegraf.conf.template) has been set with the following settings:  
